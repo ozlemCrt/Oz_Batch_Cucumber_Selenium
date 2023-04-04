@@ -5,7 +5,7 @@ Feature: Login
   #Acceptance Criteria:
   #   1.User should be able to login with valid credentials.
   #   2.User should not be able to login with invalid credentials.
-  @teacher @krafttech
+  @teacher @krafttech @paralel
   Scenario: Login as Mike
     Given  The user is on the login page
     When  The user enters valid credentials that belongs to Mike

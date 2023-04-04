@@ -14,7 +14,7 @@ Feature: Dashboard checks
       | JavaScript |
       | John       |
 
-  @cucumberMap
+  @cucumberMap @paralel
   Scenario: Example-2 for Cucumber Map
     Then Enter credentials and validate that user is on the home page
       | userEmail | john@gmail.com |

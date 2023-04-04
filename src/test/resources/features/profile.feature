@@ -1,4 +1,4 @@
-@regression
+@regression @paralel
 Feature: Profile Tests
 
   @scenario
@@ -18,7 +18,7 @@ Feature: Profile Tests
     And  The user should be able to login
     And User should go to my profile with "orhan"
     And User should navigate to "Edit Profile"
-    And The user must fill in the input boxes with the texts "Excellent QA" ,"Amazon","QA","Test","Turkiye","Aotomation Master" and tap on save changes button
+    And The user must fill in the input boxes with the texts "Excellent QA" ,"orhan","QA","Test","Turkiye","Aotomation Master" and tap on save changes button
     Then User should verify the "Profile Updated" message
 @fillAddEducation
     Scenario: The user navigates to Add Education Page
